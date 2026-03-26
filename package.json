@@ -1,0 +1,32 @@
+{
+  "name": "skillhub-cli-tencent",
+  "version": "1.1.0",
+  "description": "Skillhub CLI — install and manage AI skills locally",
+  "bin": {
+    "skillhub": "skillhub-bin.js"
+  },
+  "files": [
+    "skillhub-bin.js",
+    "skills_store_cli.js",
+    "skills_upgrade.js",
+    "version.json",
+    "metadata.json",
+    "skill/SKILL.md",
+    "skill/SKILL.skillhub-preference.md"
+  ],
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "commander": "^14.0.1",
+    "tar": "^7.5.2"
+  },
+  "author": "woodyang@outlook.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acmyangweitao/skillhub-cli.git"
+  },
+  "keywords": [
+    "skillhub",
+    "cli"
+  ]
+}
